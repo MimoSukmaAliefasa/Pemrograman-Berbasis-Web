@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ini Video</title>
+	
+</head>
+	<body style="background-color:powderblue;">
+	
+	<h2 style="color:#000099">Belajar HTML</h2>
+	<p>
+	<button onclick="playPause()"> Play/Pause </button>
+	<button onclick="makeBigger()"> Big Picture </button>
+	<button onclick="makeSmaller()"> Small Picture </button>
+	<button onclick="controls()"> Control Center </button>
+	<button onclick="controldisable()"> Control Disable </button>
+	</p>
+	 <video width="320" id="myVideo">
+  <source src="D:\donlot\cepu.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+
+			<script> 
+			var vid = document.getElementById("myVideo"); 
+
+				function playPause() { 
+				  if (vid.paused) 
+					vid.play();
+					else
+					 vid.pause();
+				  } 
+				function makeBigger() { 
+				  vid.width = 600; 
+				} 
+				function makeSmaller() { 
+				  vid.width = 100; 
+				} 
+				function controls() {
+				  vid.controls = true;
+				  vid.load();
+				}
+				function controldisable() {
+				  vid.controls = false; 
+				  vid.load();
+				}
+			</script>
+	
+	<p><a href="https://www.youtube.com/watch?v=8eDwcFfBHZM">Source Coding Bersama Coding Bee</a>.</p>
+
+</body>
