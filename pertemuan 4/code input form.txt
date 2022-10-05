@@ -1,0 +1,19 @@
+NIM : <input type="number">
+			Nama : <input type="text">
+			Tanggal Lahir : <input type="date">
+			Program Studi : 
+				<select>
+					<option> pilih</option>
+					<option>Teknik Informatika - S1</option>
+					<option>Sistem Informasi - S1</option>
+					<option>Teknik Informatika - D3</option>
+				</select>	
+			Bidang Minat : 
+				<input type="checkbox"><label>
+				Web Programming </label></input>
+				<input type="checkbox"><label>
+				Mobile Programming </label></input>
+				<input type="checkbox"><label>
+				Data Science </label></input>
+			Lampiran Proposal :
+				<input type="submit"><input type="reset">
