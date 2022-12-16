@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Zen+Dots&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Zen Dots', cursive;
+}
+body {
+    background: #051622;
+}
+nav {
+    text-align: center;
+    background-color: #1BA098;
+    padding: 20px;
+}
+nav .home {
+    color: #DEB992;
+    font-size: 20px;
+}
+nav .home:hover {
+    transition: all ease 0,3s;
+    color: #1BA098;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #1BA098;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box {
+    width: 250px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 125px;
+    height: 100%;
+    background: linear-gradient(to right, #DEB992, #DEB992);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280;
+    transition: 0.5s;
+}
+.input-field {
+    width: 80%;
+    padding: 10px 0;
+    margin: 5px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn {
+    width: 80%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    margin-top: 70px;
+    background: linear-gradient(to right, #DEB992, #DEB992);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#login{
+    left: 0px;
+}
+#register{
+    left: 450px;
+}
